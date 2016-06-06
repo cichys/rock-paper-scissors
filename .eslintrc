@@ -1,0 +1,25 @@
+{
+  "env": {
+    "node": true
+  },
+  ecmaFeatures: {
+    jsx: true,
+    experimentalObjectRestSpread: true
+  },
+  "globals": {
+  },
+  "plugins": [
+  ],
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": 0,
+    "no-console": 0,
+    "id-length": 0,
+    "indent": ["error", 4],
+    "react/prop-types": 0,
+    "react/jsx-indent": ["error", 4],
+    "react/prefer-stateless-function": 0,
+    "object-shorthand": 0,
+    "max-len": ["error", 120, 4]
+  }
+}
